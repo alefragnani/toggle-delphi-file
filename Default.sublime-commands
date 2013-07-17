@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Toggle Delphi File",
+        "command": "toggle_delphi_file"
+    }
+]
