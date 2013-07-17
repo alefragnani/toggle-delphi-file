@@ -27,6 +27,3 @@ class ToggleDelphiFileCommand(sublime_plugin.TextCommand):
             self.view.window().open_file(file_name_toggled)
         else:
             sublime.error_message("Toggle file \"" + file_name_toggled + "\" does not exists.")
-
-    def is_enabled(self):
-        return self.view.file_name() and len(self.view.file_name()) > 0
