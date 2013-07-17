@@ -1,6 +1,6 @@
 #Toggle Delphi File plugin for Sublime Text#
 
-A plugin for [Sublime Text][1] that allows you to toggle between unit (**.pas**) and form (**.dfm**) files.
+A plugin for [Sublime Text][1] that allows you to toggle between unit **.pas** and form **.dfm** files.
 
 ##Installation##
 
