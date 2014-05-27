@@ -8,7 +8,11 @@ Open a terminal/command window, navigate to your Sublime Packages folder and run
 
 ##Usage##
 
-To use the plugin, you can use `Tools / Command Palette` 
+You can use the plugin by: 
+
+* Tools / Command Palette
+* Context Menu in the Editor
+* Context Menu in the Tab
 
 ##Compatibility##
 
@@ -20,7 +24,7 @@ Copyright (c) 2013 Alessandro Fragnani de Morais
 
 The code is licensed under the [MIT license][2].
 
-  [1]: http://www.sublimetext.com/2
+  [1]: http://www.sublimetext.com/
   [2]: http://opensource.org/licenses/MIT
 
 
