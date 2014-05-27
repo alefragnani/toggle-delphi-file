@@ -50,8 +50,8 @@ class ToggleDelphiFileCommand(sublime_plugin.TextCommand):
         file_extension = os.path.splitext(self.view.file_name())[1]
         file_extension_lowercase = file_extension.lower()
         #print len(valid_extensions)
-        print len(mapping)
-        print mapping[".pas"]
-        print mapping.keys()
-        print "splitting" + str(mapping[".pas"].split(",")[0])
-        return file_extension_lowercase == ".pas"
+        #print len(mapping)
+        #print mapping[".pas"]
+        #print mapping.keys()
+        #print "splitting" + str(mapping[".pas"].split(",")[0])
+        return (file_extension_lowercase == ".pas") | (file_extension_lowercase == ".dfm")
