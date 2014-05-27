@@ -1,0 +1,5 @@
+[
+    {"caption": "-", "id": "file"},
+    { "command": "toggle_delphi_file", "caption": "Toggle Delphi File"},
+    {"caption": "-", "id": "file"}
+]
